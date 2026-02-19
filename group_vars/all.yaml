@@ -9,3 +9,5 @@ MYSQL_HOST: mysql-dev.devopsdaws.online
 SHIPPING_HOST: shipping-dev.devopsdaws.online
 RABBITMQ_HOST: rabbitmq-dev.devopsdaws.online
 PAYMENT_HOST: payment-dev.devopsdaws.online
+
+# We can also keep this in inventory.ini by [all:vars] (Both are same)
