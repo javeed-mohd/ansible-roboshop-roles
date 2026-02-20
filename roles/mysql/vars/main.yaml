@@ -1,2 +1,2 @@
 # component: mysql
-MYSQL_ROOT_PASSWORD: RoboShop@1
+MYSQL_ROOT_PASSWORD: "RoboShop@1"
