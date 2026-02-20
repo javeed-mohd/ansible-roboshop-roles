@@ -1,0 +1,3 @@
+- name: Test call
+  ansible.buiktin.debug:
+    msg: "Hi, I am configuring this {{ component }}"
