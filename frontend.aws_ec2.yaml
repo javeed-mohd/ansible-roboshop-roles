@@ -3,4 +3,6 @@ regions: # 1
 - us-east-1
 hostnames: # 2
 - ip-address
+hostnames: # 3
+- private-ip-address
 # filters:
