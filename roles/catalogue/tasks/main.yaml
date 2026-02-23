@@ -1,6 +1,6 @@
 - name: App setup
   tags:
-  - deployment # Which is used to run only few tasks or particular tasks
+  - deployment # Which is used to run only few tasks or particular tasks... Only with tags mentioned are shown on the terminal
   ansible.builtin.import_role:
     name: common
     tasks_from: app-setup.yaml
