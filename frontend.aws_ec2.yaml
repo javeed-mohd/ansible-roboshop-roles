@@ -14,4 +14,4 @@ compose: # 5
 keyed_groups: # 6
 - separator: ''
   # name of the group is frontend
-  key: tags.Name | regex_replace('-.*$', '')
+  key: tags.Component # | regex_replace('-.*$', '')
