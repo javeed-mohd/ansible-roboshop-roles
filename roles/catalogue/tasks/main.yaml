@@ -9,7 +9,7 @@
   tags:
   - deployment
   # ansible.builtin.import_role: # import_role respects the tags. if you apply tags to import_role those will be automatically applied to all the tasks inside that role...
-  ansible.builtin.include_role: # include_role does not respect tags. It will execute as usual with or without tags specification...
+  ansible.builtin.include_role: # include_role does not respect tags. It dynamically loads and executes a role during playbook execution, allowing conditional logic, loops, and variable overrides.
     name: common
     tasks_from: nodejs-setup.yaml
 
