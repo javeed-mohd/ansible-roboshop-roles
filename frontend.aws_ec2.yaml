@@ -14,4 +14,5 @@ compose: # 5
 keyed_groups: # 6
 - separator: ''
   # name of the group is frontend
-  key: tags.Component # | regex_replace('-.*$', '')
+  # key: tags.Component # It is used to display all the ip addresses of provided Name
+  key: tags.Name | regex_replace('-.*$', '') # To get frontend in output from frontend-dev
