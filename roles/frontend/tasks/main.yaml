@@ -33,6 +33,7 @@
     state: absent
 
 - name: Copy nginx.conf
+  # throttle: 2 # From 5 serials -> First 2 servers restart , run specific tasks, next 2 servers restart and so on...
   ansible.builtin.template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
