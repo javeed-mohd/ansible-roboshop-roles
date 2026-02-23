@@ -11,7 +11,7 @@ filters: # 4
 compose: # 5
   # This sets the ansible_host variable to connect with the private IP address without changing the hostname.
   ansible_host: private_ip_address
-# keyed_groups: # 6
-# - separator: ''
-#   # name of the group is frontend
-#   key: tags.Name | regex_replace('-.*$', '')
+keyed_groups: # 6
+- separator: ''
+  # name of the group is frontend
+  key: tags.Name | regex_replace('-.*$', '')
