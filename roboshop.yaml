@@ -2,5 +2,5 @@
   hosts: "{{ component }}"
   become: yes
   # serial: 5 #  8 forks -> 5, run entire playbook (Still batch wise execution), next 3 servers
-  roles:
+  roles: # serial runs the entire playbook in batches of hosts
   - "{{ component }}"
