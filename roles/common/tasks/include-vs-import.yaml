@@ -1,5 +1,5 @@
 - name: Message-1
-  ansible.builtin.dyebug:
+  ansible.builtin.debug:
     msg: "Hi from MESSAGE-1"
 
 - name: Message-2
