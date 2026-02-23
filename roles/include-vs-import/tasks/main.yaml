@@ -1,0 +1,4 @@
+- name: Call common role
+  ansible.builtin.import_role: # 1
+    name: common
+    tasks_from: include-vs-import.yaml
